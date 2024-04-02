@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Voice Assistant
+  ai:
+    openai:
+      api-key: <openai-apikey>
+      api-model: gpt-35-turbo
+
+telegram:
+  bot:
+    username: <username>
+    token: <token>
+
+
+
+ffmpeg:
+  path: path/to/ffmpeg.exe
